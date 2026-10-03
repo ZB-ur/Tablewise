@@ -13,7 +13,7 @@ build/
 AGENTS.md
 docs/
 design-system/
-data/
+/data/
 
 # Xcode user state
 xcuserdata/
