@@ -25,4 +25,3 @@ struct PlayingCard: View {
         .accessibilityLabel("\(rank) \(suit)")
     }
 }
-
