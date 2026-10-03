@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F5F383AC1D5D0EF42CE86E /* PokerMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A46258AF2ED6AF2CAF677 /* PokerMath.swift */; };
+		0340C137EBA1321A79A5E36F /* RuleContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EB10A6F8E83E032453F665 /* RuleContext.swift */; };
+		0499C77A42D154DF0BB03D42 /* RangePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1825BFEFD783FC2448BF098 /* RangePlan.swift */; };
+		055354BB00CF94B5C280C581 /* HandBoardChangePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE6AB2FC41939435EE35EBE /* HandBoardChangePreviewView.swift */; };
+		05F236C86CADEE140D4A1111 /* RangeQuickAdjustmentPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3637AF6583A56F06F8B199 /* RangeQuickAdjustmentPanel.swift */; };
+		06DFAC23B2284B046D6758A1 /* NodeNoteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5573648B83A8809371D178 /* NodeNoteScreen.swift */; };
+		091F22DFAD4BF904ADB63D6F /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185134329F3A4737DFDCD24E /* PlayingCard.swift */; };
+		0AF2C5AC1A8DE11DDC806AE8 /* PokerEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1629AEDE73EE34A8E1DE0665 /* PokerEvaluator.swift */; };
+		0C0084A064AE67F5EBF9A0C6 /* NodePotBreakdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = C780ED819BB99B2B2ED4796A /* NodePotBreakdown.swift */; };
+		0C00AD77085E7F6721E0674F /* SettlementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7171BEF0F928A706B542C5 /* SettlementView.swift */; };
+		18E5D3238B4A93B50A94FDB3 /* LocalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C7B994212EF01431A7C7FD /* LocalStore.swift */; };
+		21D141F10DEEDDFD5C5000B6 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D542634193657F4FBA85A /* PreferencesView.swift */; };
+		26A63AE5A48DB46DA7F8C239 /* RangeCatalogRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD038AF2571F8C2F30C9A5B /* RangeCatalogRepository.swift */; };
+		29BDC58B7254EC5955AFB2ED /* RangeCatalogModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BADF5D35289740EA4E7CA56 /* RangeCatalogModels.swift */; };
+		2C56E7649225E72DC09A1F5A /* SessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037516011BDF347A7109C9F0 /* SessionRecord.swift */; };
+		3243C7F1BD52F5F8266FD219 /* HandAnalysisSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BFAAE951412E8D5C8E9698 /* HandAnalysisSection.swift */; };
+		3E369206AB2BF67E4C01D85D /* RangeResearchPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692D18AD0BCE9A458CA1540 /* RangeResearchPanel.swift */; };
+		4908722DF70B89902D45D5C6 /* SessionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CA0E9A2DE8CA443F53F5D9 /* SessionViews.swift */; };
+		4E6071096ED79A2D0E5963DD /* HandRangeWorkspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF3B11A0F15A1D314007A77 /* HandRangeWorkspace.swift */; };
+		4E6AC58FA7582500D696EC38 /* SessionCorrection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D16C4FA67E00BB7F17B821 /* SessionCorrection.swift */; };
+		57FB3CC74A0B9B42ABC24142 /* ReviewViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B4969E868E7025FE13407 /* ReviewViews.swift */; };
+		5F346AB2C8D82BB1393A5BFD /* HandRankIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED096301A78380F9ED2A17 /* HandRankIcon.swift */; };
+		5F35CEAF58F0CC250ACD9DBA /* SessionReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9CA1EFB54FD34E201273D6 /* SessionReducer.swift */; };
+		5F8F1F8BB50DAFD33D0EF2D5 /* EquityEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1402368FF00E02E3E1AAA /* EquityEngine.swift */; };
+		6291B3CC5DFE02B5DAF0908B /* ReviewSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333A9C58227791B747A965C /* ReviewSummary.swift */; };
+		63946C701C6E7B3ABFEB087E /* HandStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7130826C454D70B75EA7C /* HandStyle.swift */; };
+		6476791CA66AA1920507D6AD /* RangeCatalogApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741C55C4CF6DE247D1A646AD /* RangeCatalogApplication.swift */; };
+		6A073641AAED42E45737511E /* HandRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9903247355F1D228C37CCB /* HandRecord.swift */; };
+		6A695A724905528CA95972C7 /* Portraits.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3015FE9B078427AC5DBAFBB /* Portraits.xcassets */; };
+		7D2AF223CB9F131E27126D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ACC3DE87E264665E19A0AD /* Assets.xcassets */; };
+		80B4E46804F4D18B8B7B24AC /* RangeTransitionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81313E9F849D0EE53179C209 /* RangeTransitionEngine.swift */; };
+		92EFBAD42F788560355337BD /* AnalysisNodePots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55507B8374ABC1F6B6A1AD58 /* AnalysisNodePots.swift */; };
+		957CA0AAEE68C66295C2FB37 /* RangeCatalogSourcePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAC3933F471AA1F2CFD28E /* RangeCatalogSourcePanel.swift */; };
+		966AE99C6FC8E515A2C2225A /* SessionCorrectionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6E0B78719662AFCACE0FC /* SessionCorrectionHistoryView.swift */; };
+		97EB1579B5360C36156D4373 /* SessionEventCorrectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA88FCEEA3DA71C56F47EF2 /* SessionEventCorrectionScreen.swift */; };
+		98F9DB80D864140C66F288C7 /* RangeComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA59BEBB90B570258E0E20FB /* RangeComposition.swift */; };
+		9EFA6CA5EC0A220C19F9C2ED /* SessionCorrectionRepairScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38D3902EE46F2AFAB50DF3 /* SessionCorrectionRepairScreen.swift */; };
+		A0EED98A7957E1FB8AA929B1 /* HandEntryScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BAC989A1225D238966F95 /* HandEntryScreens.swift */; };
+		A13889F18425F9F5EE2A55A5 /* HandReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E914F53E542521C42B09A1 /* HandReducer.swift */; };
+		A78D61C04EEB9DAE3759A40C /* RangeAnalysisContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D8D73239805660A8AC965 /* RangeAnalysisContext.swift */; };
+		A8CD9CA444A446A3333599CB /* AnalysisRangeTransitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6DE301BA97C392870781A /* AnalysisRangeTransitionsView.swift */; };
+		B500ABA9E2F04BEC73D4AABD /* TablewiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA8AEE8F9AB1E1937C0C8FF /* TablewiseApp.swift */; };
+		B728BBD501FDC268D9452225 /* HandSettlement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669F2C4A891F5E3BA495921B /* HandSettlement.swift */; };
+		B76EC2A4690B43EBA9F9B219 /* ReviewRangeCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31533D854BEB02B2A17CCABB /* ReviewRangeCapture.swift */; };
+		BA4DA66D67074210E7CCD8F6 /* PokerOuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F13CD91C7990A9D35180758 /* PokerOuts.swift */; };
+		BCCDC1A2C3A1D6A3DFF15A49 /* AnalysisAdvancedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E983F3C6779AC1EA46FC1 /* AnalysisAdvancedPage.swift */; };
+		BEF4DBFA99D106CE4B6CC911 /* SessionCorrectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB1C43759D4CA9956AD83B1 /* SessionCorrectionView.swift */; };
+		CA5FF84305B289B6A346E6E8 /* RememberedPotScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B75E8A2DA2FA25A470FD7 /* RememberedPotScreen.swift */; };
+		CA674CED129B7B401A735A4B /* HandListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48F50AF81B8275E71E6638 /* HandListView.swift */; };
+		D112B520114DE3CC4A154916 /* HandSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB074ABC3C2E0E817A77A3 /* HandSetupView.swift */; };
+		D60874D3C772D99A38572770 /* HandWorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D2608212281444766FACE /* HandWorkspaceView.swift */; };
+		D60E19011DF879994D3869F5 /* RangeQuickAdjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE357704AB6A3D6B8186E5 /* RangeQuickAdjustment.swift */; };
+		D9DAA19E2E46D87472A8B7AC /* HandOutsSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79538CC555D915C5C5C4660B /* HandOutsSummary.swift */; };
+		E0B81B90ED5EA64C86A0DE29 /* RangeCatalogMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C704773113A32B16189D070 /* RangeCatalogMatcher.swift */; };
+		E3E930DD3E9D95463F6503E9 /* AnalysisRangeSensitivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BD18F323416FE2CF9D5B04 /* AnalysisRangeSensitivityView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		037516011BDF347A7109C9F0 /* SessionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRecord.swift; sourceTree = "<group>"; };
+		0BD038AF2571F8C2F30C9A5B /* RangeCatalogRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeCatalogRepository.swift; sourceTree = "<group>"; };
+		1629AEDE73EE34A8E1DE0665 /* PokerEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerEvaluator.swift; sourceTree = "<group>"; };
+		185134329F3A4737DFDCD24E /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		1C7171BEF0F928A706B542C5 /* SettlementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettlementView.swift; sourceTree = "<group>"; };
+		20CA0E9A2DE8CA443F53F5D9 /* SessionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViews.swift; sourceTree = "<group>"; };
+		22ACC3DE87E264665E19A0AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24C1402368FF00E02E3E1AAA /* EquityEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquityEngine.swift; sourceTree = "<group>"; };
+		2A3637AF6583A56F06F8B199 /* RangeQuickAdjustmentPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeQuickAdjustmentPanel.swift; sourceTree = "<group>"; };
+		2BA8AEE8F9AB1E1937C0C8FF /* TablewiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablewiseApp.swift; sourceTree = "<group>"; };
+		2C704773113A32B16189D070 /* RangeCatalogMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeCatalogMatcher.swift; sourceTree = "<group>"; };
+		2EBB074ABC3C2E0E817A77A3 /* HandSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandSetupView.swift; sourceTree = "<group>"; };
+		31533D854BEB02B2A17CCABB /* ReviewRangeCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRangeCapture.swift; sourceTree = "<group>"; };
+		376E983F3C6779AC1EA46FC1 /* AnalysisAdvancedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisAdvancedPage.swift; sourceTree = "<group>"; };
+		4692D18AD0BCE9A458CA1540 /* RangeResearchPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeResearchPanel.swift; sourceTree = "<group>"; };
+		48F6DE301BA97C392870781A /* AnalysisRangeTransitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisRangeTransitionsView.swift; sourceTree = "<group>"; };
+		4A1B75E8A2DA2FA25A470FD7 /* RememberedPotScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RememberedPotScreen.swift; sourceTree = "<group>"; };
+		4A3B08EA0C77FD373E6D36D6 /* Tablewise.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Tablewise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EB10A6F8E83E032453F665 /* RuleContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleContext.swift; sourceTree = "<group>"; };
+		55507B8374ABC1F6B6A1AD58 /* AnalysisNodePots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisNodePots.swift; sourceTree = "<group>"; };
+		56C6E0B78719662AFCACE0FC /* SessionCorrectionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCorrectionHistoryView.swift; sourceTree = "<group>"; };
+		5BADF5D35289740EA4E7CA56 /* RangeCatalogModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeCatalogModels.swift; sourceTree = "<group>"; };
+		5DA88FCEEA3DA71C56F47EF2 /* SessionEventCorrectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionEventCorrectionScreen.swift; sourceTree = "<group>"; };
+		669F2C4A891F5E3BA495921B /* HandSettlement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandSettlement.swift; sourceTree = "<group>"; };
+		68BFAAE951412E8D5C8E9698 /* HandAnalysisSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandAnalysisSection.swift; sourceTree = "<group>"; };
+		6C0BAC989A1225D238966F95 /* HandEntryScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandEntryScreens.swift; sourceTree = "<group>"; };
+		6CF3B11A0F15A1D314007A77 /* HandRangeWorkspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandRangeWorkspace.swift; sourceTree = "<group>"; };
+		6D5573648B83A8809371D178 /* NodeNoteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeNoteScreen.swift; sourceTree = "<group>"; };
+		6F0D542634193657F4FBA85A /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		6F13CD91C7990A9D35180758 /* PokerOuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerOuts.swift; sourceTree = "<group>"; };
+		741C55C4CF6DE247D1A646AD /* RangeCatalogApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeCatalogApplication.swift; sourceTree = "<group>"; };
+		79538CC555D915C5C5C4660B /* HandOutsSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandOutsSummary.swift; sourceTree = "<group>"; };
+		7F2D2608212281444766FACE /* HandWorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandWorkspaceView.swift; sourceTree = "<group>"; };
+		81313E9F849D0EE53179C209 /* RangeTransitionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeTransitionEngine.swift; sourceTree = "<group>"; };
+		8333A9C58227791B747A965C /* ReviewSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSummary.swift; sourceTree = "<group>"; };
+		83CAC3933F471AA1F2CFD28E /* RangeCatalogSourcePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeCatalogSourcePanel.swift; sourceTree = "<group>"; };
+		84CE357704AB6A3D6B8186E5 /* RangeQuickAdjustment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeQuickAdjustment.swift; sourceTree = "<group>"; };
+		88E914F53E542521C42B09A1 /* HandReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandReducer.swift; sourceTree = "<group>"; };
+		9F38D3902EE46F2AFAB50DF3 /* SessionCorrectionRepairScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCorrectionRepairScreen.swift; sourceTree = "<group>"; };
+		A3015FE9B078427AC5DBAFBB /* Portraits.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Portraits.xcassets; sourceTree = "<group>"; };
+		A3D7130826C454D70B75EA7C /* HandStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandStyle.swift; sourceTree = "<group>"; };
+		AA59BEBB90B570258E0E20FB /* RangeComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeComposition.swift; sourceTree = "<group>"; };
+		AB5B4969E868E7025FE13407 /* ReviewViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViews.swift; sourceTree = "<group>"; };
+		ACED096301A78380F9ED2A17 /* HandRankIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandRankIcon.swift; sourceTree = "<group>"; };
+		B23A46258AF2ED6AF2CAF677 /* PokerMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerMath.swift; sourceTree = "<group>"; };
+		C2C7B994212EF01431A7C7FD /* LocalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStore.swift; sourceTree = "<group>"; };
+		C780ED819BB99B2B2ED4796A /* NodePotBreakdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodePotBreakdown.swift; sourceTree = "<group>"; };
+		CF9903247355F1D228C37CCB /* HandRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandRecord.swift; sourceTree = "<group>"; };
+		DBB1C43759D4CA9956AD83B1 /* SessionCorrectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCorrectionView.swift; sourceTree = "<group>"; };
+		DD48F50AF81B8275E71E6638 /* HandListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandListView.swift; sourceTree = "<group>"; };
+		DF9CA1EFB54FD34E201273D6 /* SessionReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionReducer.swift; sourceTree = "<group>"; };
+		E1825BFEFD783FC2448BF098 /* RangePlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangePlan.swift; sourceTree = "<group>"; };
+		E28D8D73239805660A8AC965 /* RangeAnalysisContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeAnalysisContext.swift; sourceTree = "<group>"; };
+		E7BD18F323416FE2CF9D5B04 /* AnalysisRangeSensitivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisRangeSensitivityView.swift; sourceTree = "<group>"; };
+		E9D16C4FA67E00BB7F17B821 /* SessionCorrection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCorrection.swift; sourceTree = "<group>"; };
+		EBE6AB2FC41939435EE35EBE /* HandBoardChangePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandBoardChangePreviewView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0B7F2D6B7D143EDFB336C9BD = {
+			isa = PBXGroup;
+			children = (
+				F3DC52CCFACCE328EEE99E79 /* Tablewise */,
+				5016D6A7E8FD9D82AF0EAACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BFD3881C912EA6E6D35F040 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22ACC3DE87E264665E19A0AD /* Assets.xcassets */,
+				A3015FE9B078427AC5DBAFBB /* Portraits.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C8D08C1820E19C9E41263F9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C2C7B994212EF01431A7C7FD /* LocalStore.swift */,
+				0BD038AF2571F8C2F30C9A5B /* RangeCatalogRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5016D6A7E8FD9D82AF0EAACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A3B08EA0C77FD373E6D36D6 /* Tablewise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B9D583333FC3302B473780 /* Hands */ = {
+			isa = PBXGroup;
+			children = (
+				376E983F3C6779AC1EA46FC1 /* AnalysisAdvancedPage.swift */,
+				E7BD18F323416FE2CF9D5B04 /* AnalysisRangeSensitivityView.swift */,
+				48F6DE301BA97C392870781A /* AnalysisRangeTransitionsView.swift */,
+				68BFAAE951412E8D5C8E9698 /* HandAnalysisSection.swift */,
+				EBE6AB2FC41939435EE35EBE /* HandBoardChangePreviewView.swift */,
+				6C0BAC989A1225D238966F95 /* HandEntryScreens.swift */,
+				DD48F50AF81B8275E71E6638 /* HandListView.swift */,
+				79538CC555D915C5C5C4660B /* HandOutsSummary.swift */,
+				6CF3B11A0F15A1D314007A77 /* HandRangeWorkspace.swift */,
+				ACED096301A78380F9ED2A17 /* HandRankIcon.swift */,
+				2EBB074ABC3C2E0E817A77A3 /* HandSetupView.swift */,
+				A3D7130826C454D70B75EA7C /* HandStyle.swift */,
+				7F2D2608212281444766FACE /* HandWorkspaceView.swift */,
+				6D5573648B83A8809371D178 /* NodeNoteScreen.swift */,
+				C780ED819BB99B2B2ED4796A /* NodePotBreakdown.swift */,
+				185134329F3A4737DFDCD24E /* PlayingCard.swift */,
+				6F0D542634193657F4FBA85A /* PreferencesView.swift */,
+				83CAC3933F471AA1F2CFD28E /* RangeCatalogSourcePanel.swift */,
+				AA59BEBB90B570258E0E20FB /* RangeComposition.swift */,
+				2A3637AF6583A56F06F8B199 /* RangeQuickAdjustmentPanel.swift */,
+				4692D18AD0BCE9A458CA1540 /* RangeResearchPanel.swift */,
+				4A1B75E8A2DA2FA25A470FD7 /* RememberedPotScreen.swift */,
+				8333A9C58227791B747A965C /* ReviewSummary.swift */,
+				AB5B4969E868E7025FE13407 /* ReviewViews.swift */,
+				56C6E0B78719662AFCACE0FC /* SessionCorrectionHistoryView.swift */,
+				9F38D3902EE46F2AFAB50DF3 /* SessionCorrectionRepairScreen.swift */,
+				DBB1C43759D4CA9956AD83B1 /* SessionCorrectionView.swift */,
+				5DA88FCEEA3DA71C56F47EF2 /* SessionEventCorrectionScreen.swift */,
+				20CA0E9A2DE8CA443F53F5D9 /* SessionViews.swift */,
+				1C7171BEF0F928A706B542C5 /* SettlementView.swift */,
+			);
+			path = Hands;
+			sourceTree = "<group>";
+		};
+		5AA714D9DDACBC84FC424E15 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2BA8AEE8F9AB1E1937C0C8FF /* TablewiseApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		641ED997CEC4B108A926BD00 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				52B9D583333FC3302B473780 /* Hands */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		6E21F98F24C487FB4E0110B6 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				CF9903247355F1D228C37CCB /* HandRecord.swift */,
+				88E914F53E542521C42B09A1 /* HandReducer.swift */,
+				669F2C4A891F5E3BA495921B /* HandSettlement.swift */,
+				741C55C4CF6DE247D1A646AD /* RangeCatalogApplication.swift */,
+				2C704773113A32B16189D070 /* RangeCatalogMatcher.swift */,
+				5BADF5D35289740EA4E7CA56 /* RangeCatalogModels.swift */,
+				E1825BFEFD783FC2448BF098 /* RangePlan.swift */,
+				84CE357704AB6A3D6B8186E5 /* RangeQuickAdjustment.swift */,
+				31533D854BEB02B2A17CCABB /* ReviewRangeCapture.swift */,
+				51EB10A6F8E83E032453F665 /* RuleContext.swift */,
+				E9D16C4FA67E00BB7F17B821 /* SessionCorrection.swift */,
+				037516011BDF347A7109C9F0 /* SessionRecord.swift */,
+				DF9CA1EFB54FD34E201273D6 /* SessionReducer.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EF1EF7611C647357016B32FA /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				55507B8374ABC1F6B6A1AD58 /* AnalysisNodePots.swift */,
+				24C1402368FF00E02E3E1AAA /* EquityEngine.swift */,
+				1629AEDE73EE34A8E1DE0665 /* PokerEvaluator.swift */,
+				B23A46258AF2ED6AF2CAF677 /* PokerMath.swift */,
+				6F13CD91C7990A9D35180758 /* PokerOuts.swift */,
+				E28D8D73239805660A8AC965 /* RangeAnalysisContext.swift */,
+				81313E9F849D0EE53179C209 /* RangeTransitionEngine.swift */,
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
+		F3DC52CCFACCE328EEE99E79 /* Tablewise */ = {
+			isa = PBXGroup;
+			children = (
+				EF1EF7611C647357016B32FA /* Analysis */,
+				5AA714D9DDACBC84FC424E15 /* App */,
+				4C8D08C1820E19C9E41263F9 /* Data */,
+				6E21F98F24C487FB4E0110B6 /* Domain */,
+				641ED997CEC4B108A926BD00 /* Features */,
+				3BFD3881C912EA6E6D35F040 /* Resources */,
+			);
+			path = Tablewise;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78C66A6106D5C33952DA9E0D /* Tablewise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD73DDBEC023FAF73264C460 /* Build configuration list for PBXNativeTarget "Tablewise" */;
+			buildPhases = (
+				709F5096FE078D3C5C0F81B4 /* Sources */,
+				E330FD8163E3AAB0B94D8D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tablewise;
+			packageProductDependencies = (
+			);
+			productName = Tablewise;
+			productReference = 4A3B08EA0C77FD373E6D36D6 /* Tablewise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9E95C8CCC49F661741E961B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					78C66A6106D5C33952DA9E0D = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4CA4C4B5EB1FA5FACF8E6C47 /* Build configuration list for PBXProject "Tablewise" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0B7F2D6B7D143EDFB336C9BD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5016D6A7E8FD9D82AF0EAACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78C66A6106D5C33952DA9E0D /* Tablewise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E330FD8163E3AAB0B94D8D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2AF223CB9F131E27126D67 /* Assets.xcassets in Resources */,
+				6A695A724905528CA95972C7 /* Portraits.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		709F5096FE078D3C5C0F81B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCDC1A2C3A1D6A3DFF15A49 /* AnalysisAdvancedPage.swift in Sources */,
+				92EFBAD42F788560355337BD /* AnalysisNodePots.swift in Sources */,
+				E3E930DD3E9D95463F6503E9 /* AnalysisRangeSensitivityView.swift in Sources */,
+				A8CD9CA444A446A3333599CB /* AnalysisRangeTransitionsView.swift in Sources */,
+				5F8F1F8BB50DAFD33D0EF2D5 /* EquityEngine.swift in Sources */,
+				3243C7F1BD52F5F8266FD219 /* HandAnalysisSection.swift in Sources */,
+				055354BB00CF94B5C280C581 /* HandBoardChangePreviewView.swift in Sources */,
+				A0EED98A7957E1FB8AA929B1 /* HandEntryScreens.swift in Sources */,
+				CA674CED129B7B401A735A4B /* HandListView.swift in Sources */,
+				D9DAA19E2E46D87472A8B7AC /* HandOutsSummary.swift in Sources */,
+				4E6071096ED79A2D0E5963DD /* HandRangeWorkspace.swift in Sources */,
+				5F346AB2C8D82BB1393A5BFD /* HandRankIcon.swift in Sources */,
+				6A073641AAED42E45737511E /* HandRecord.swift in Sources */,
+				A13889F18425F9F5EE2A55A5 /* HandReducer.swift in Sources */,
+				B728BBD501FDC268D9452225 /* HandSettlement.swift in Sources */,
+				D112B520114DE3CC4A154916 /* HandSetupView.swift in Sources */,
+				63946C701C6E7B3ABFEB087E /* HandStyle.swift in Sources */,
+				D60874D3C772D99A38572770 /* HandWorkspaceView.swift in Sources */,
+				18E5D3238B4A93B50A94FDB3 /* LocalStore.swift in Sources */,
+				06DFAC23B2284B046D6758A1 /* NodeNoteScreen.swift in Sources */,
+				0C0084A064AE67F5EBF9A0C6 /* NodePotBreakdown.swift in Sources */,
+				091F22DFAD4BF904ADB63D6F /* PlayingCard.swift in Sources */,
+				0AF2C5AC1A8DE11DDC806AE8 /* PokerEvaluator.swift in Sources */,
+				00F5F383AC1D5D0EF42CE86E /* PokerMath.swift in Sources */,
+				BA4DA66D67074210E7CCD8F6 /* PokerOuts.swift in Sources */,
+				21D141F10DEEDDFD5C5000B6 /* PreferencesView.swift in Sources */,
+				A78D61C04EEB9DAE3759A40C /* RangeAnalysisContext.swift in Sources */,
+				6476791CA66AA1920507D6AD /* RangeCatalogApplication.swift in Sources */,
+				E0B81B90ED5EA64C86A0DE29 /* RangeCatalogMatcher.swift in Sources */,
+				29BDC58B7254EC5955AFB2ED /* RangeCatalogModels.swift in Sources */,
+				26A63AE5A48DB46DA7F8C239 /* RangeCatalogRepository.swift in Sources */,
+				957CA0AAEE68C66295C2FB37 /* RangeCatalogSourcePanel.swift in Sources */,
+				98F9DB80D864140C66F288C7 /* RangeComposition.swift in Sources */,
+				0499C77A42D154DF0BB03D42 /* RangePlan.swift in Sources */,
+				D60E19011DF879994D3869F5 /* RangeQuickAdjustment.swift in Sources */,
+				05F236C86CADEE140D4A1111 /* RangeQuickAdjustmentPanel.swift in Sources */,
+				3E369206AB2BF67E4C01D85D /* RangeResearchPanel.swift in Sources */,
+				80B4E46804F4D18B8B7B24AC /* RangeTransitionEngine.swift in Sources */,
+				CA5FF84305B289B6A346E6E8 /* RememberedPotScreen.swift in Sources */,
+				B76EC2A4690B43EBA9F9B219 /* ReviewRangeCapture.swift in Sources */,
+				6291B3CC5DFE02B5DAF0908B /* ReviewSummary.swift in Sources */,
+				57FB3CC74A0B9B42ABC24142 /* ReviewViews.swift in Sources */,
+				0340C137EBA1321A79A5E36F /* RuleContext.swift in Sources */,
+				4E6AC58FA7582500D696EC38 /* SessionCorrection.swift in Sources */,
+				966AE99C6FC8E515A2C2225A /* SessionCorrectionHistoryView.swift in Sources */,
+				9EFA6CA5EC0A220C19F9C2ED /* SessionCorrectionRepairScreen.swift in Sources */,
+				BEF4DBFA99D106CE4B6CC911 /* SessionCorrectionView.swift in Sources */,
+				97EB1579B5360C36156D4373 /* SessionEventCorrectionScreen.swift in Sources */,
+				2C56E7649225E72DC09A1F5A /* SessionRecord.swift in Sources */,
+				5F35CEAF58F0CC250ACD9DBA /* SessionReducer.swift in Sources */,
+				4908722DF70B89902D45D5C6 /* SessionViews.swift in Sources */,
+				0C00AD77085E7F6721E0674F /* SettlementView.swift in Sources */,
+				B500ABA9E2F04BEC73D4AABD /* TablewiseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		339BA7FF6DAF8F0DCC6126DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		BF0947D5FE7C9DA3212B3665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tablewise;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tablewise.app;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DA84EB10CBCCDFE913749418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		F6C254D95805C4A13465CB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tablewise;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tablewise.app;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CA4C4B5EB1FA5FACF8E6C47 /* Build configuration list for PBXProject "Tablewise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339BA7FF6DAF8F0DCC6126DA /* Debug */,
+				DA84EB10CBCCDFE913749418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BD73DDBEC023FAF73264C460 /* Build configuration list for PBXNativeTarget "Tablewise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C254D95805C4A13465CB82 /* Debug */,
+				BF0947D5FE7C9DA3212B3665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9E95C8CCC49F661741E961B /* Project object */;
+}

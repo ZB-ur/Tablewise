@@ -1,0 +1,23 @@
+# Local build and simulator state
+.build/
+.local/
+DerivedData/
+build/
+*.ipa
+*.xcarchive/
+
+# Secrets and development-only material
+.env
+.env.*
+.codex/
+AGENTS.md
+docs/
+design-system/
+data/
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+
+# macOS metadata
+.DS_Store
